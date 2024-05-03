@@ -143,8 +143,16 @@
     cursor: pointer;
 }
 
+.pt-24 {
+    padding-top: 24px;
+}
+
 .pt-100 {
     padding-top: 100px;
+}
+
+.pt-245 {
+    padding-top: 245px;
 }
 
 .Header-linear-gredient {
@@ -225,10 +233,6 @@
     padding-left: 70px;
 }
 
-.pt-245 {
-    padding-top: 245px;
-}
-
 .Join-Now {
     border-radius: 79px;
     border: 1px solid #FFFFFF;
@@ -277,7 +281,7 @@
     padding: 12px;
     border-radius: 13px;
     border: 2px solid #4E4E4E;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(196, 196, 196, 0) 100%, rgba(255, 255, 255, 0.03) 100%);
+    background: linear-gradient(180deg, #ffffff1a 0%, #c4c4c400 100%, #ffffff08 100%);
 }
 
 .card-2 {
@@ -286,7 +290,7 @@
     padding: 45px;
     border-radius: 13px;
     border: 2px solid #4E4E4E;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(196, 196, 196, 0) 100%, rgba(255, 255, 255, 0.03) 100%);
+    background: linear-gradient(180deg, #ffffff1a 0%, #c4c4c400 100%, #ffffff08 100%);
 }
 
 .card-1:hover {
@@ -323,9 +327,10 @@ nav {
 
 .box {
     width: 1038px;
-    padding: 16px 19px 16px 19px;
+    border: 1px solid #3E3E3E;
+    padding: 12px;
     border-radius: 6px 0px 6px 6px;
-    border: 3px solid #3E3E3E;
+    background: linear-gradient(180deg, #ffffff1a 0%, #ffffff08 100%);
 }
 
 .accord-para {
@@ -369,6 +374,10 @@ nav {
 
     .w-xl-164 {
         width: 164%;
+    }
+
+    .w-xl-93 {
+        width: 93%;
     }
 }
 
@@ -493,5 +502,13 @@ nav {
 
     .Section-4-bg-img {
         height: 400px;
+    }
+
+    .w-sm-70 {
+        width: 70%;
+    }
+
+    .pt-sm-160 {
+        padding-top: 160%;
     }
 }
