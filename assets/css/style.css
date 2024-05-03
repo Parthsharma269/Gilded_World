@@ -139,12 +139,38 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-.cursor {
-    cursor: pointer;
+.sticky {
+    top: 0;
+    z-index: 23;
+    position: sticky;
 }
 
-.pt-24 {
-    padding-top: 24px;
+nav {
+    overflow: hidden;
+}
+
+.nav:hover {
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.transform {
+    transform: translate(47px, 1px);
+}
+
+.transform-1 {
+    transform: translate(-482%, 25%);
+}
+
+.transform-2 {
+    transform: translate(229%, -35%);
+}
+
+.transform-3 {
+    transform: translate(106%, 137%);
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .pt-100 {
@@ -155,46 +181,32 @@
     padding-top: 245px;
 }
 
-.Header-linear-gredient {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../images/Header-linear-gredient.png");
+.Gilded {
+    max-width: 100vh;
 }
 
-.header-bg-img {
-    height: 826px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../images/Header-bg-img.png");
+.accord-para {
+    opacity: 70%;
+    display: none;
 }
 
-.Section-2-bg-img {
-    height: 1079px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../images/Section-2-bg-\ img.png");
+.s-2-max-w {
+    Opacity: 70%;
+    max-width: 649px;
 }
 
-.Section-4-bg-img {
-    height: 705px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../images/Section-4-bg-img.png");
+.s-3-max-w {
+    Opacity: 70%;
+    max-width: 1024px;
 }
 
-.Footer-bg-img {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../images/Footer-bg-img.png");
+.s-4-max-w {
+    max-width: 940px;
 }
 
-.transform {
-    transform: translate(47px, 1px);
+.footer-max-w-367 {
+    Opacity: 70%;
+    max-width: 367px;
 }
 
 .Discord {
@@ -245,34 +257,13 @@
     background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
 }
 
-.s-2-max-w {
-    Opacity: 70%;
-    max-width: 649px;
+.border-1 {
+    border: 2px solid #FFFFFF;
 }
 
-.s-3-max-w {
-    Opacity: 70%;
-    max-width: 1024px;
-}
-
-.s-4-max-w {
-    max-width: 940px;
-}
-
-.Gilded {
-    max-width: 100vh;
-}
-
-.transform-1 {
-    transform: translate(-482%, 25%);
-}
-
-.transform-2 {
-    transform: translate(229%, -35%);
-}
-
-.transform-3 {
-    transform: translate(106%, 137%);
+.border-right {
+    height: 35px;
+    border: 0.7px solid #FFFFFF;
 }
 
 .card-1 {
@@ -307,44 +298,50 @@
     background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
 }
 
-.sticky {
-    top: 0;
-    z-index: 23;
-    position: sticky;
-}
-
-nav {
-    overflow: hidden;
-}
-
-.nav:hover {
-    -webkit-text-stroke: 1px #ffffff;
-}
-
-.border-1 {
-    border: 2px solid #FFFFFF;
-}
-
 .box {
     width: 1038px;
+    padding: 24px;
     border: 1px solid #3E3E3E;
-    padding: 12px;
     border-radius: 6px 0px 6px 6px;
     background: linear-gradient(180deg, #ffffff1a 0%, #ffffff08 100%);
 }
 
-.accord-para {
-    display: none;
+.Header-linear-gredient {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Header-linear-gredient.png");
 }
 
-.footer-max-w-367 {
-    Opacity: 70%;
-    max-width: 367px;
+.header-bg-img {
+    height: 826px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Header-bg-img.png");
 }
 
-.border-right {
-    height: 35px;
-    border: 0.7px solid #FFFFFF;
+.Section-2-bg-img {
+    height: 1079px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Section-2-bg-\ img.png");
+}
+
+.Section-4-bg-img {
+    height: 705px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Section-4-bg-img.png");
+}
+
+.Footer-bg-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/Footer-bg-img.png");
 }
 
 @media (max-width:1400px) {
